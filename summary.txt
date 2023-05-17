@@ -1,0 +1,32 @@
+// to initialize git at the first time 
+  git init
+
+// working commits (code snapshots)
+
+2: create commits 
+- git add <files>
+stage  changes for next commits
+
+-git commit 
+-create a commit that includes all stages change
+
+
+3: you can find out which files are stages and which are not staged
+-git status 
+
+4: you can see list of choronologial order of list of commits you have far 
+- git log 
+
+5: head is basically a pointer managed by git that controls which commit is currently visible.
+
+6:move between commits 
+-git checkout : temporarly move to another commit.
+
+7:if i want to go back my branch that includes all commits 
+- git checkout main
+
+8: (undo commits)if you want to undo lastest commit 
+- git revert <id>  revert changes of commit by creating a new commit 
+
+- git reset --hard <id>  undo changes by deleting all commits 
+asdsd
